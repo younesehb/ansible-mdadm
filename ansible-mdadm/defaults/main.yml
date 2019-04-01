@@ -9,6 +9,8 @@ mdadm_arrays:
     devices:
       - '/dev/sdc'
       - '/dev/sdd'
+      - '/dev/sde'
+      - '/dev/sdf'
     # Define filesystem to partition array with
     filesystem: 'ext4'
     # Define the array raid level
